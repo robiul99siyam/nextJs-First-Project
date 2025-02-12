@@ -3,7 +3,7 @@ parent: null
 order: 2
 title: "Quick Start"
 date: "2025-03-12"
-author: "Brian C"
+author: Brian C
 category: "General"
 tags: ["intro", "general-started"]
 ---

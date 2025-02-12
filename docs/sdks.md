@@ -4,7 +4,7 @@ title: "SDKs"
 date: "2024-02-22"
 order: 3
 category: "sdk"
-author: "Brian C"
+author: Brian C
 tags: ["technology", "test"]
 ---
 

@@ -4,7 +4,7 @@ date: "2024-02-22"
 order: 3
 parent: Introducation
 category: Test
-author: "Brian C"
+author: Brian C
 tags: ["technology", "test"]
 ---
 
