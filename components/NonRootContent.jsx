@@ -1,12 +1,7 @@
 import { getDocumentContent } from "@/lib/docs";
 import Link from "next/link";
-export const ContentDisplay = async ({ id }) => {
+async function NonRootContent({ id }) {
   const content = await getDocumentContent(id);
-
-  if (!content) {
-    return <div>Content not found. Please try again later.</div>;
-  }
-
   return (
     <article className="prose dark:prose-invert mt-20">
       <h1>{content.title}</h1>
@@ -32,4 +27,6 @@ export const ContentDisplay = async ({ id }) => {
       />
     </article>
   );
-};
+}
+
+export default NonRootContent;
